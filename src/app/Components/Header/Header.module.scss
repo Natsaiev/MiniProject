@@ -1,0 +1,25 @@
+.header {
+    font-size: 16px;
+    margin-bottom: 65px;
+    background-color: #3F5CC0;
+    
+    &__container{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        gap: 200px;
+    }
+}
+
+.menu{
+    display: flex;
+    padding: 20px 30px;
+    margin: 0 30px;
+    &__item{
+    padding: 10px 60px;
+    }
+    &__item:not(:last-child){
+        border-right: 1px solid #000000;
+    }
+
+}

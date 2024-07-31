@@ -1,0 +1,1 @@
+import { PostsList } from "./PostsList";
